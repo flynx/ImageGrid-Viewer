@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:gap="http://phonegap.com/ns/1.0" 
+		id="org.ImageGrid" 
+		versionCode="10" 
+		version="0.0.1">
+
+
+	<name>ImageGrid Viewer</name>
+
+
+	<description>
+		An experimental ImageGrid:viewer build.
+	</description>
+
+
+	<author href="https://github.com/flynx/ImageGrid-Viewer" email="alex.nanou@gmail.com">
+		Alex A. Naanou
+	</author>
+
+
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+
+
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	
+
+</widget>
